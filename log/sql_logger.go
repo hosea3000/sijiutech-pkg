@@ -1,11 +1,9 @@
-package repository
+package log
 
 import (
 	"context"
 	"database/sql"
 	"time"
-
-	"sijiutech-material-api/pkg/log"
 
 	"go.uber.org/zap"
 )
@@ -13,11 +11,11 @@ import (
 // sqlLogger 实现了 DBTX 接口，用于记录SQL执行日志
 type sqlLogger struct {
 	db     *sql.DB
-	logger *log.Logger
+	logger *Logger
 }
 
 // NewSQLLogger 创建一个带日志记录的数据库包装器
-func NewSQLLogger(db *sql.DB, logger *log.Logger) *sqlLogger {
+func NewSQLLogger(db *sql.DB, logger *Logger) *sqlLogger {
 	return &sqlLogger{
 		db:     db,
 		logger: logger,
