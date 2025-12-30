@@ -1,4 +1,4 @@
-module code.sijiutech.com/ideastudio/sijiutech-pkg/log
+module github.com/hosea3000/sijiutech-pkg
 
 go 1.25.1
 
