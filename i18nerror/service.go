@@ -4,9 +4,10 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
-	"sijiutech-billing-api/pkg/i18nerror/helper"
-	"sijiutech-billing-api/pkg/i18nerror/sqlc/repository"
 	"time"
+
+	"code.sijiutech.com/ideastudio/sijiutech-pkg/i18nerror/helper"
+	"code.sijiutech.com/ideastudio/sijiutech-pkg/i18nerror/sqlc/repository"
 
 	"github.com/pkg/errors"
 	"github.com/redis/go-redis/v9"
