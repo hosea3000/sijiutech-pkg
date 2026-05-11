@@ -1,4 +1,4 @@
-package ierror
+package i18nerr
 
 import "github.com/pkg/errors"
 
