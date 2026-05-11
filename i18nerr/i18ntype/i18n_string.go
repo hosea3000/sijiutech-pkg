@@ -1,7 +1,7 @@
 package i18ntype
 
 import (
-	i18nerr "code.sijiutech.com/ideastudio/sijiutech-pkg/i18nerror"
+	i18nerr "code.sijiutech.com/ideastudio/sijiutech-pkg/i18nerr"
 	"context"
 	"encoding/json"
 	"log"

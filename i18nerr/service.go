@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"time"
 
-	"code.sijiutech.com/ideastudio/sijiutech-pkg/i18nerror/helper"
-	"code.sijiutech.com/ideastudio/sijiutech-pkg/i18nerror/sqlc/repository"
+	"code.sijiutech.com/ideastudio/sijiutech-pkg/i18nerr/helper"
+	"code.sijiutech.com/ideastudio/sijiutech-pkg/i18nerr/sqlc/repository"
 
 	"github.com/pkg/errors"
 	"github.com/redis/go-redis/v9"
