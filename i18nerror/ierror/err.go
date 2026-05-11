@@ -26,7 +26,7 @@ type I18nCode struct {
 	MessageKey I18nTranslationErrorKey
 }
 
-func newCode(code int, messageKey I18nTranslationErrorKey) I18nCode {
+func NewCode(code int, messageKey I18nTranslationErrorKey) I18nCode {
 	return I18nCode{
 		Code:       code,
 		MessageKey: messageKey,
