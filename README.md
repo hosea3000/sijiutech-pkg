@@ -15,24 +15,14 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 
 ```
 cd existing_repo
-<<<<<<< HEAD
-git remote add origin http://172.16.10.29:9077/ideastudio/sijiutech-pkg.git
-git branch -M master
-git push -uf origin master
-=======
 git remote add origin http://172.16.10.29:9077/hexiang/sijiutech-pkg.git
 git branch -M main
 git push -uf origin main
->>>>>>> origin/main
 ```
 
 ## Integrate with your tools
 
-<<<<<<< HEAD
-- [ ] [Set up project integrations](http://172.16.10.29:9077/ideastudio/sijiutech-pkg/-/settings/integrations)
-=======
 - [ ] [Set up project integrations](http://172.16.10.29:9077/hexiang/sijiutech-pkg/-/settings/integrations)
->>>>>>> origin/main
 
 ## Collaborate with your team
 
