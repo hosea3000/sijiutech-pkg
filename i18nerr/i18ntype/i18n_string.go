@@ -1,10 +1,11 @@
 package i18ntype
 
 import (
-	i18nerr "code.sijiutech.com/ideastudio/sijiutech-pkg/i18nerr"
 	"context"
 	"encoding/json"
 	"log"
+
+	i18nerr "code.sijiutech.com/hexiang/sijiutech-pkg/i18nerr"
 )
 
 type I18nString string

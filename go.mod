@@ -1,4 +1,4 @@
-module code.sijiutech.com/ideastudio/sijiutech-pkg
+module code.sijiutech.com/hexiang/sijiutech-pkg
 
 go 1.25.1
 
