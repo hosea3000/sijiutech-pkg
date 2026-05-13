@@ -1,4 +1,4 @@
-module code.sijiutech.com/hexiang/sijiutech-pkg
+module github.com/hosea3000/sijiutech-pkg
 
 go 1.25.1
 

@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"log"
 
-	i18nerr "code.sijiutech.com/hexiang/sijiutech-pkg/i18nerr"
+	i18nerr "github.com/hosea3000/sijiutech-pkg/i18nerr"
 )
 
 type I18nString string

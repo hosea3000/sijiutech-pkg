@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"time"
 
-	"code.sijiutech.com/hexiang/sijiutech-pkg/i18nerr/helper"
-	"code.sijiutech.com/hexiang/sijiutech-pkg/i18nerr/sqlc/repository"
+	"github.com/hosea3000/sijiutech-pkg/i18nerr/helper"
+	"github.com/hosea3000/sijiutech-pkg/i18nerr/sqlc/repository"
 
 	"github.com/pkg/errors"
 	"github.com/redis/go-redis/v9"
